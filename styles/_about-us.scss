@@ -1,0 +1,42 @@
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    align-items: center;
+    gap: 9rem;
+    .about-us-img img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+
+    }
+    .about-text {
+        h5{
+            color: var(--main-color);
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
+
+        }
+        h2{
+            color: var(--text-color);
+            font-size: var(--h2-font);
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+
+        }
+        p{
+            color: var(--text-color);
+            font-size: var(--p-font);
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 1px;
+            margin-bottom: 35px;
+
+
+        }
+    }
+}
